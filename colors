@@ -1,0 +1,13 @@
+bg color-#0d1117
+
+black button -white text- border-#bc8cff
+
+violet color-#6e40c9
+
+pink -rgb(247, 120, 186) 40%
+
+background color is #0d1117.all the tables will have #0d1117 bg,
+white text choose color of white wisely which suits #0d1117 and border #bc8cff,
+buttons will have white text which suits for #6e40c9 background you can add hover effect for it which suits better,
+run and reset buttons should have counter colors.i.e., one have white bg and other have white text,one have #6e40c9 text other have #6e40c9 bg and choose border colors.
+choose bar charts,pie charts color wisely which can beautify bg color-#0d1117,you can add shadaw for the charts you can use pink -rgb(247, 120, 186) 40%,violet color-#6e40c9 and similar highliting colors

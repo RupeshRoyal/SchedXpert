@@ -1,0 +1,141 @@
+body {
+    background-color: #0d1117;
+    color: #f0f0f0; /* Soft white */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Table Styling */
+  table {
+    background-color: #0d1117;
+    color: #f0f0f0;
+    border: 1px solid #bc8cff;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #bc8cff;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #6e40c9;
+    color: #f0f0f0;
+    border: 1px solid #bc8cff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #bc8cff;
+    color: #0d1117;
+  }
+  
+  /* Run and Reset Buttons */
+  button.run {
+    background-color: #ffffff;
+    color: #6e40c9;
+    border: 1px solid #6e40c9;
+  }
+  
+  button.reset {
+    background-color: #6e40c9;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  button.run:hover {
+    background-color: #6e40c9;
+    color: #ffffff;
+  }
+  
+  button.reset:hover {
+    background-color: #ffffff;
+    color: #6e40c9;
+  }
+  
+  /* Chart Container Styling */
+  .chart-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #0d1117;
+    box-shadow: 0 4px 8px rgba(247, 120, 186, 0.4), 0 6px 20px rgba(110, 64, 201, 0.6);
+    border-radius: 8px;
+  }
+  
+  /* Gantt Chart Styles */
+  .gantt-chart {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Bar Chart Styles */
+  .bar-chart .bar {
+    background-color: #6e40c9;
+  }
+  
+  .bar-chart .bar:hover {
+    background-color: rgb(247, 120, 186);
+  }
+  
+  /* Pie Chart Styles */
+  .pie-chart .slice-1 {
+    fill: #f778ba;
+  }
+  
+  .pie-chart .slice-2 {
+    fill: #6e40c9;
+  }
+  
+  .pie-chart .slice-3 {
+    fill: #bc8cff;
+  }
+  
+  .pie-chart .slice-4 {
+    fill: #ffffff;
+  }
+  
+  /* Explanation Section */
+  .explanation-container {
+    background-color: #0d1117;
+    color: #f0f0f0;
+    border: 1px solid #bc8cff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Results Table */
+  .results-table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .results-table th {
+    background-color: #6e40c9;
+    color: #ffffff;
+  }
+  
+  .results-table td {
+    background-color: #0d1117;
+  }
+  
+  /* Additional Padding and Margin */
+  .section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
