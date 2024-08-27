@@ -55,8 +55,8 @@ const ProcessInput = () => {
         </span>
         </h1>
       </div>
-      <ProcessTable processes={processes} setProcesses={setProcesses} />
       
+        <ProcessTable processes={processes} setProcesses={setProcesses} />
         <AlgorithmSelector onAlgorithmChange={handleAlgorithmChange} />
         <AlgorithmRunner
           processes={processes}
@@ -92,6 +92,15 @@ const ProcessInput = () => {
           </div>
         </div>
       )}
+      <footer className="w-full p-4 bg-[#0d1117] text-[#ffe83d] flex justify-center items-center">
+            <p className="text-lg mr-1">Spun</p>
+            <p className="text-lg text-[#6e40c9] mr-1">By</p>
+            <a href="https://github.com/RupeshRoyal" 
+              className=" text-[#ffe83d] rounded hover:text-[#ffffff] transition-all"
+            >
+             Yata Rupesh.
+            </a>
+          </footer>
     </div>
   );
 };

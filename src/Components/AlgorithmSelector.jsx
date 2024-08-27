@@ -4,7 +4,7 @@ const AlgorithmSelector = ({ onAlgorithmChange }) => {
   const algorithms = ['Choose One','FCFS', 'Round Robin', 'SJF', 'SRJF', 'Priority'];
 
   return (
-    <div className="flex items-center p-4">
+    <div className="flex items-center mt-1 p-4">
       <h2 className="text-xl font-bold mb-2">Select Algorithm :</h2>
       <div className="ml-2 text-lg font-semibold">
         <select

@@ -34,8 +34,8 @@ const ProcessTable = ({ processes, setProcesses }) => {
   };
 
   return (
-    <div className="mb-4 p-4 bg-[#0d1117] rounded-lg">
-      <h2 className="text-xl font-bold text-[#fffff] text-center mb-4">Process Table</h2>
+    <div className="mb-2 p-2 bg-[#0d1117] rounded-lg">
+      <h2 className="text-xl font-bold text-[#fffff] text-center mb-2 mt-2">Process Table</h2>
       <table className="table-auto w-full text-[#ffe83d]">
         <thead className="bg-[#6e40c9] ">
           <tr>
@@ -80,7 +80,7 @@ const ProcessTable = ({ processes, setProcesses }) => {
           ))}
         </tbody>
       </table>
-      <div className="mt-4 flex justify-end mr-1">
+    <div className="mt-4 flex justify-end mr-1">
       <button
       onClick={handleAddProcess}
       className="bg-[#6e40c9] text-[#ffe83d] text-bold text-xl px-4 py-2 text-xl rounded hover:bg-[#5a2d9e] hover:text-[#f9e14b] flex items-center justify-center transition-all duration-300"
