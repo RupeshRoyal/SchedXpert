@@ -64,12 +64,12 @@ const PieCharts = ({ results }) => {
   return (
     <div className="flex justify-around p-5 bg-[#0d1117] mt-6">
       <div className="w-2/5 bg-[#0d1117] p-2 border border-[#bc8cff] rounded-lg shadow-lg">
-        <h3 className="text-white text-center text-xl font-bold mb-2">Waiting Time Distribution</h3>
-          <Pie data={waitingTimeData} />    
-      </div>
-      <div className="w-2/5 bg-[#0d1117] p-2 border border-[#bc8cff] rounded-lg shadow-lg">
         <h3 className="text-white text-center text-xl font-bold mb-2">Turn Around Time Distribution</h3>
           <Pie data={turnaroundTimeData} />
+      </div>
+      <div className="w-2/5 bg-[#0d1117] p-2 border border-[#bc8cff] rounded-lg shadow-lg">
+        <h3 className="text-white text-center text-xl font-bold mb-2">Waiting Time Distribution</h3>
+          <Pie data={waitingTimeData} />    
       </div>
     </div>
   );
