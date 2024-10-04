@@ -26,10 +26,10 @@ const MetricsSection = ({ results, processes, algorithm }) => {
         </p>
       )}
       <p className="text-white font-bold">
-        Average Waiting Time: <strong className="text-[#ffe83d]">{averageWaitingTime.toFixed(2)}</strong>
+        Average Turnaround Time: <strong className="text-[#ffe83d]">{averageTurnaroundTime.toFixed(2)}</strong>
       </p>
       <p className="text-white font-bold">
-        Average Turnaround Time: <strong className="text-[#ffe83d]">{averageTurnaroundTime.toFixed(2)}</strong>
+        Average Waiting Time: <strong className="text-[#ffe83d]">{averageWaitingTime.toFixed(2)}</strong>
       </p>
     </div>
   );
