@@ -11,8 +11,8 @@ const ResultsSection = ({ results }) => {
             <th className="px-4 py-2 border border-[#bc8cff] text-center">Burst Time</th>
             <th className="px-4 py-2 border border-[#bc8cff] text-center">Start Time</th>
             <th className="px-4 py-2 border border-[#bc8cff] text-center">End Time</th>
-            <th className="px-4 py-2 border border-[#bc8cff] text-center">Waiting Time</th>
             <th className="px-4 py-2 border border-[#bc8cff] text-center">Turnaround Time</th>
+            <th className="px-4 py-2 border border-[#bc8cff] text-center">Waiting Time</th>
           </tr>
         </thead>
         <tbody>
@@ -22,8 +22,8 @@ const ResultsSection = ({ results }) => {
               <td className="px-4 py-2 border border-[#bc8cff]">{result.endTime - result.startTime}</td>
               <td className="px-4 py-2 border border-[#bc8cff]">{result.startTime}</td>
               <td className="px-4 py-2 border border-[#bc8cff]">{result.endTime}</td>
-              <td className="px-4 py-2 border border-[#bc8cff]">{result.waitingTime}</td>
               <td className="px-4 py-2 border border-[#bc8cff]">{result.turnaroundTime}</td>
+              <td className="px-4 py-2 border border-[#bc8cff]">{result.waitingTime}</td>
             </tr>
           ))}
         </tbody>
