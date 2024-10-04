@@ -28,15 +28,15 @@ const BarChart = ({ results }) => {
         backgroundColor: 'rgba(247, 120, 186, 0.8)', // Pink
       },
       {
-        label: 'Waiting Time',
-        data: waitingTimes,
-        backgroundColor: 'rgba(255, 99, 132, 0.8)', // Red
-      },
-      {
         label: 'Turnaround Time',
         data: turnaroundTimes,
         backgroundColor: 'rgba(153, 102, 255, 0.8)', // Violet
       },
+      {
+        label: 'Waiting Time',
+        data: waitingTimes,
+        backgroundColor: 'rgba(255, 99, 132, 0.8)', // Red
+      }, 
     ],
   };
 
